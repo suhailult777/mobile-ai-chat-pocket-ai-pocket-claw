@@ -1,11 +1,18 @@
-# PocketClaw
+# PocketClaw 📱🤖
+
+[![React Native](https://img.shields.io/badge/React_Native-20232A?logo=react&logoColor=61DAFB)](https://reactnative.dev/)
+[![Expo](https://img.shields.io/badge/Expo_SDK_54-000020?logo=expo&logoColor=white)](https://expo.dev/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
+> B.Tech Major Project — a mobile AI chat app with **cloud and fully offline inference** on-device.
 
 PocketClaw is an Expo + React Native mobile chat app for local and near-local AI workflows.
-It supports:
 
-- NVIDIA proxy mode (works with Expo Go).
-- Native mode via llama.rn (Expo dev client).
-- ZeroClaw tool execution for trusted local shell workflows.
+**Two inference paths:**
+- **Cloud (proxy mode)** — streams through a local Express proxy to NVIDIA NIM APIs; works with Expo Go.
+- **Offline (native mode)** — on-device GGUF model inference via llama.rn (Expo dev client), no network needed.
+- **ZeroClaw tool execution** — trusted local shell workflows through a paired gateway.
 
 ## Contents
 
